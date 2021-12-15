@@ -41,18 +41,26 @@
 </div>
 
 <!-- Mars Facts Table -->
+<!-- <div class="container-fluid">
+  <div class="row" style="background-color: #FF9E76;">
+    <div class="col-md-6" style="padding-left: 3%;">
+      <h2>Mars Facts</h2>
+     
+      <p>{{ mars.mars_facts | safe }}</p>
+    </div>
+  </div> 
+</div> -->
+
 <div class="container-fluid">
   <div class="row" style="background-color: #FF9E76;">
     <div class="col-md-6" style="padding-left: 3%;">
       <h2>Mars Facts</h2>
+     
       <p>{{ mars.mars_facts | safe }}</p>
     </div>
-
-    <!-- <div class="col-md-6 text-center">
-      <img src="{{ mars.facts | safe }}" style="width: 400px; height: 400px;">
-    </div> -->
   </div> 
 </div>
+
 
 
 
@@ -62,14 +70,15 @@
   <h1 class="text-center">Mars Hemispheres</h1>
   <br>
 {% for hemisphere in mars.hemispheres %}
-    <div class="col-md-6 text-center">
-      <div class="card text-center" style="width: 32rem;">
-        <img class="card-img-top text-center" id="scale_id" src="{{ hemisphere.img_url }}">
-          <div class="card-body text-center">
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <img src="{{ hemisphere.img_url }}">
+          <div class="caption">
             <h4 class="card-title text-center">{{ hemisphere.title }}</h4>
           </div>
-        </div>
+      </div>
     </div>
+    
 {% endfor %}
 </div>
 </div>
