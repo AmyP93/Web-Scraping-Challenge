@@ -14,5 +14,4 @@ The scrape: finds the most recent news article and returns it with a brief descr
 
 # Results
 ![mars1](https://github.com/AmyP93/Web-Scraping-Challenge/blob/main/images/mars1.PNG)
-![mars](images\mars.PNG)
-
+![mars](https://github.com/AmyP93/Web-Scraping-Challenge/blob/main/images/mars.PNG)
