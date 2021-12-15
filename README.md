@@ -1,18 +1,18 @@
 # Web-Scraping-Challenge
-# README Template
 
 # Introduction
+The challenge is to develop a web scraping tool for gathering information for a "Mission to Mars." The web scraping uses a Flask application with Python and MongoDB
 
-# Overview - Data
-what data used
+# Resources
+* https://redplanetscience.com/
+* https://spaceimages-mars.com/
+* https://galaxyfacts-mars.com/
+* https://marshemispheres.com/
+
 # Methodology
-how data was manipulated
-# Analysis
-tables graphs
-
-# Analysis/Results
+The scrape: finds the most recent news article and returns it with a brief description; finds the "featured" mars image and returns it; crapes a table of mars facts; and returns four images, one for each of Mar's four hemispheres.  There is a "Get Data!" button  at the top to refresh this with the latest info.
 
 # Results
-answers the questions
-# Conclusions
-what's to be concluded
+![MarsPic1](images\mars1.PNG)
+![MarsPic2](images\mars.PNG)
+
