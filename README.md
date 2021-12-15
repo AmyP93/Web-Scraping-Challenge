@@ -13,6 +13,6 @@ The challenge is to develop a web scraping tool for gathering information for a 
 The scrape: finds the most recent news article and returns it with a brief description; finds the "featured" mars image and returns it; crapes a table of mars facts; and returns four images, one for each of Mar's four hemispheres.  There is a "Get Data!" button  at the top to refresh this with the latest info.
 
 # Results
-![mars1](images\mars1.PNG)
+![mars1](https://github.com/AmyP93/Web-Scraping-Challenge/blob/main/images/mars1.PNG)
 ![mars](images\mars.PNG)
 
